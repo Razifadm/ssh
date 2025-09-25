@@ -1,3 +1,5 @@
+### Too many bugs — fix it by yourself.
+
 ## SSH over WebSocket Setup (OpenWrt)
 
 ### Go to /root and clone the repo
