@@ -14,3 +14,31 @@
 ### Run
 - cd /root/ssh
 - python3 main.py
+
+ 
+Add the following to your `/etc/config/firewall` and `/etc/config/network` for the VPN tunnel:
+
+### `/etc/config/firewall`
+```bash
+config zone
+	option name 'VPN'
+	option network 'vpntunnel'
+	option masq '1'
+	option mtu_fix '1'
+	option input 'REJECT'
+	option forward 'REJECT'
+	option output 'ACCEPT'
+
+config forwarding
+	option src 'lan'
+	option dest 'VPN'
+````
+
+### `/etc/config/network`
+
+```bash
+config interface 'vpntunnel'
+	option proto 'none'
+	option device 'tun1'
+```
+ 
