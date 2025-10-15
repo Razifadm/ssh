@@ -4,7 +4,7 @@
 
 ### Go to /root and clone the repo
 - cd /root
-- git clone https://github.com/dotywrt/SSH-WebSocket.git ssh
+- git clone https://github.com/Razifadm/ssh
 
 ### Install dependencies
 - opkg update
