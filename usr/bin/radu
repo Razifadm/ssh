@@ -1,0 +1,2 @@
+cd /root/ssh
+python3 main.py
