@@ -6,6 +6,7 @@
 - opkg update
 - opkg install python3
 - opkg install git
+- cd /root
 - git clone https://github.com/Razifadm/ssh
 - cd /root/ssh
 - chmod +x /usr/bin/*
