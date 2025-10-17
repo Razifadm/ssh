@@ -1,21 +1,22 @@
-### Too many bugs — fix it by yourself.
+### Too many bugs.##
 
 ## SSH over WebSocket Setup (OpenWrt)
-
-### Go to /root and clone the repo
-- cd /root
-- git clone https://github.com/Razifadm/ssh
 
 ### Install dependencies
 - opkg update
 - opkg install python3
-- chmod +x /root/ssh/usr/bin/*
-- mv /root/ssh/usr/bin/* /usr/bin/
-- Update /root/ssh/config.py
+- opkg install git
+- git clone https://github.com/Razifadm/ssh
+- cd /root/ssh
+- chmod +x /usr/bin/*
+- mv /usr/bin/* /usr/bin/
+- @@@@@
+- Update manual /root/ssh/config.py
+- and ssh_connector.py
 
 ### Run
-- cd /root/ssh
-- python3 main.py
+-radu
+
 
  
 Add the following to your `/etc/config/firewall` and `/etc/config/network` for the VPN tunnel:
