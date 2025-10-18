@@ -12,6 +12,7 @@ wget -O /tmp/Install.sh https://raw.githubusercontent.com/Razifadm/ssh/main/Inst
 - opkg update
 - opkg install python3
 - opkg install git
+- opkg install openssh-client
 - cd /root
 - git clone https://github.com/Razifadm/ssh
 - cd /root/ssh
