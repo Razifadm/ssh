@@ -13,5 +13,8 @@ cd /root/ssh
 chmod +x /usr/bin/*
 mv /usr/bin/* /usr/bin/
 
+#padam skripp terclone
+rm -f /root/ssh/Install.sh
+
 #padam skrip Install.sh
 rm -f "$0"
