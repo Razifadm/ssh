@@ -2,7 +2,8 @@
 
 ## how to install try
 
-```wget -O /tmp/Install.sh https://raw.githubusercontent.com/Razifadm/ssh/main/Install.sh && chmod +x /tmp/Install.sh && sh /tmp/Install.sh```
+```
+wget -O /tmp/Install.sh https://raw.githubusercontent.com/Razifadm/ssh/main/Install.sh && chmod +x /tmp/Install.sh && sh /tmp/Install.sh```
 
 ## SSH over WebSocket Setup (OpenWrt)
 
