@@ -3,6 +3,7 @@
 opkg update
 opkg install python3
 opkg install git
+opkg install openssh-client
 cd /root
 
 #copy download source code
